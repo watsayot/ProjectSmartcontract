@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\WINDOWS 10\\Desktop\\Project\\FinalInFinal\\contracts\\Vegetable.sol": {
+      "lastModificationDate": 1708719585789,
+      "contentHash": "ff42ad6f3f5d9255ef927bedda1eb3ca",
+      "sourceName": "contracts/Vegetable.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.19"
+      ],
+      "artifacts": [
+        "Vegetable"
+      ]
+    },
+    "C:\\Users\\WINDOWS 10\\Desktop\\Project\\FinalInFinal\\contracts\\Counter.sol": {
+      "lastModificationDate": 1708885454032,
+      "contentHash": "e04913f76ad624993e30245631bac208",
+      "sourceName": "contracts/Counter.sol",
+      "solcConfig": {
+        "version": "0.8.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "Counter"
+      ]
+    }
+  }
+}
