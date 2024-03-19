@@ -5,7 +5,7 @@ import Web3 from 'web3';
 
 export default async function handler(req, res) {
   try {
-    const MyContract = await ethers.getContractFactory('Vegetable.sol'); // Replace with your contract name
+    const MyContract = await ethers.getContractFactory('Vegetable'); // Replace with your contract name
     const deployedContract = await MyContract.deployed();
     const contractAddress = deployedContract.address;
     const contractABI = MyContract.interface.format('json');

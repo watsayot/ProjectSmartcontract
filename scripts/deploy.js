@@ -5,11 +5,11 @@ async function main(){
    //ติดต่อ smart contract
    const _Vegetable = await ethers.getContractFactory("Vegetable");
 
-   const vegeID = 123;  // Replace with the actual value
-    const vegeName = "Tomato";  // Replace with the actual value
-    const vegeFarm = "Farm1";  // Replace with the actual value
-    const vegeFarmerName = "John Doe";  // Replace with the actual value
-    const vegeDetail = "Fresh and organic";  // Replace with the actual value
+   const vegeID = 123;  
+    const vegeName = "Tomato";  
+    const vegeFarm = "Farm1";  
+    const vegeFarmerName = "John Doe";  
+    const vegeDetail = "Fresh and organic";  
 
 
     const Vegetable = await _Vegetable.deploy(

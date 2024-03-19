@@ -1,11 +1,11 @@
 import { ethers } from 'ethers';
 
-export const getProvider = () => {
-  const provider = new ethers.providers.JsonRpcProvider(process.env.NEXT_PUBLIC_ETHEREUM_RPC_URL);
-  return provider;
+const getProvider = () => {
+  return new ethers.providers.JsonRpcProvider('YOUR_ETHEREUM_NODE_URL');
 };
 
-export const getSigner = (provider) => {
-  const signer = provider.getSigner();
-  return signer;
+const getSigner = (wallet) => {
+  return wallet.connect(getProvider());
 };
+
+export { getProvider, getSigner };
